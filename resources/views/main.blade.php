@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 @extends("templates.structure")
+<link href="{{ asset('css/main.css') }}"  rel="stylesheet">
 <html>
 <head>
-	<link href="{{ asset('css/app.css') }}"  rel="stylesheet">
 	<title></title>
 </head>
 <body>
-
+@section('content')
+  <h1>main</h>
+@endsection
 </body>
 </html>

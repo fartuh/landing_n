@@ -11,7 +11,11 @@
 |
 */
 
-Route::get("/", "mainController@index");
+Route::get("/", "mainController@index")->name("home");
+Route::get("/about", "mainController@about")->name("about");
+
+//Route::get("/about", "mainController@about");
+
 
 /*
 /node_modules
