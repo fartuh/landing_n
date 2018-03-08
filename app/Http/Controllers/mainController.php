@@ -20,4 +20,9 @@ class mainController extends Controller
     public function about(){
       return view("about");
     }
+
+    public function buy(){
+      return view("buy");
+    }
+
 }

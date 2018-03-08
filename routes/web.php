@@ -13,6 +13,8 @@
 
 Route::get("/", "mainController@index")->name("home");
 Route::get("/about", "mainController@about")->name("about");
+Route::get("/buy", "mainController@buy")->name("buy");
+
 
 //Route::get("/about", "mainController@about");
 

@@ -7,13 +7,15 @@
 	@yield("header")
 </div>
 <div class="container">
+<div class="row">
   @section("nav")
-<h2><a href='{{url("/")}}'>home</a></h>
-    <h2><a href='{{url("/about")}}'>about</a></h>
-<h2><a href='{{url("/buy")}}'>buy</a></h>
+<h2 class="col-4"><a href='{{url("/")}}'>home</a></h>
+    <h2 class="col-4"><a href='{{url("/about")}}'>about</a></h>
+<h2 class="col-4"><a href='{{url("/buy")}}'>buy</a></h>
 
   @endsection
   @yield("nav")
+</div>
 </div>
 <div class="container">
 	@section('content')
